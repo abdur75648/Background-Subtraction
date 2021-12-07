@@ -22,6 +22,5 @@ The dataset can be downloaded at [ChangeDetection.Net](http://changedetection.ne
 
 ### Using This Repo ###
 1. Download & put the data in their particular folders (like baseline,illumination, jitter & moving_bg)
-2. Run the background subtraction using:
-      python main.py -i baseline/input -o baseline/result -c b -e baseline/eval_frames.txt
-4. wfef
+2. Run the background subtraction using: ` python main.py -i datasetname/input -o datasetname/result -c X -e datasetname/eval_frames.txt `, where
+3. jjh
