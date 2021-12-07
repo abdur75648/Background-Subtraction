@@ -34,7 +34,6 @@ The dataset can be downloaded at [ChangeDetection.Net](http://changedetection.ne
   
 3. Evaluate the performance using:
 
-    ` python eval.py --pred_path datasetname/result --gt_path datasetname/groundtruth` 
-  ` python main.py -i datasetname/input -o datasetname/result -c X -e datasetname/eval_frames.txt `,
+    ` python eval.py --pred_path datasetname/result --gt_path datasetname/groundtruth`,
   
   where all the arguments are self-explanatory
