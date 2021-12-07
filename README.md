@@ -1,5 +1,6 @@
-# Background-Subtraction
-OpenCV implementation of background subtraction/foreground detection in Python
+# Background-Subtraction #
+- - - - 
+**OpenCV implementation of background subtraction/foreground detection in Python**
 ===================
 
 Background subtraction is a well-known technique for extracting the foreground objects in images
