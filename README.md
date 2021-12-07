@@ -22,5 +22,8 @@ The dataset can be downloaded at [ChangeDetection.Net](http://changedetection.ne
 
 ### Using This Repo ###
 1. Download & put the data in their particular folders (like baseline,illumination, jitter & moving_bg)
-2. Run the background subtraction using: ` python main.py -i datasetname/input -o datasetname/result -c X -e datasetname/eval_frames.txt `, where
-3. jjh
+2. Run the background subtraction using:
+  ` python main.py -i datasetname/input -o datasetname/result -c X -e datasetname/eval_frames.txt `,
+  where i and o are paths for the input folder and target folder for predicted masks recpectively,
+  eval frames.txt file contains the starting and ending frame that will be used for evaluation,
+  and c is category name ("b" for baseline, "i" for illumination, "j" for camera jitter, and "d": for dynamic background)
