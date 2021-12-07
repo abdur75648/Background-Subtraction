@@ -16,3 +16,12 @@ This repo uses OpenCV to perform background subtraction to find the foreground o
 2. ***Illumination Changes:*** In this category, the lighting conditions may vary between the frames of a video. Changes in lighting conditions can also introduce shadows of the foreground objects, which need to be ignored.
 3. ***Camera Shake (jitter):*** In this category, the camera shakes due to the vibration of the mount or the unsteady hand of a photographer
 4. ***Dynamic Scenes:*** In this category, the background of the video is not static anymore. The change in the background in this case is due to movements of background objects.
+
+### Dataset ###
+The dataset can be downloaded at [ChangeDetection.Net](http://changedetection.net)
+
+### Using This Repo ###
+1. Download & put the data in their particular folders (like baseline,illumination, jitter & moving_bg)
+2. Run the background subtraction using:
+      python main.py -i baseline/input -o baseline/result -c b -e baseline/eval_frames.txt
+4. wfef
