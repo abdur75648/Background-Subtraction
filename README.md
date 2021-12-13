@@ -9,6 +9,8 @@ efficient. Usually, the foreground object masks are obtained by performing a sub
 the current frame and a background model. The background model contains the characteristics of
 the background or static part of a scene.
 
+![image](https://user-images.githubusercontent.com/66300465/145829673-1285b5a5-a14c-4259-8f03-3974e32ebb9c.png)
+
 This repo uses OpenCV to perform background subtraction to find the foreground object masks for 4 different scene conditions:
 
 This repo uses OpenCV to perform background subtraction to find the foreground object masks for 4 different scene conditions:
