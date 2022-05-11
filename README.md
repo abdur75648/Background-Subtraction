@@ -12,8 +12,6 @@ the background or static part of a scene.
 ![image](https://user-images.githubusercontent.com/66300465/145829673-1285b5a5-a14c-4259-8f03-3974e32ebb9c.png)
 
 This repo uses OpenCV to perform background subtraction to find the foreground object masks for 4 different scene conditions:
-
-This repo uses OpenCV to perform background subtraction to find the foreground object masks for 4 different scene conditions:
 1. ***Baseline:*** This category contains simple videos. The camera is fixed and steady. The background is static, and there is no change in illumination conditions between the video frames. Handling the baseline data is the first step towards building a robust background subtraction system.
 2. ***Illumination Changes:*** In this category, the lighting conditions may vary between the frames of a video. Changes in lighting conditions can also introduce shadows of the foreground objects, which need to be ignored.
 3. ***Camera Shake (jitter):*** In this category, the camera shakes due to the vibration of the mount or the unsteady hand of a photographer
